@@ -3,7 +3,7 @@ from openpyxl import load_workbook, Workbook
 from openpyxl.utils import get_column_letter
  
 
-wb= load_workbook ('Pack.xlsx')
+wb= load_workbook ('Pack.xlsx') # Or name of your file.xlsx
 ws = wb.active
 
 partials = 0
